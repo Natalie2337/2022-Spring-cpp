@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/csourcecode/product_and_bigger/bigger.h
+iostream
+-
+cstring
+-
+
+/mnt/d/csourcecode/product_and_bigger/main_bigger.cpp
+iostream
+-
+bigger.h
+/mnt/d/csourcecode/product_and_bigger/bigger.h
+

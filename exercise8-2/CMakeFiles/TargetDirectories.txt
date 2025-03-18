@@ -1,0 +1,3 @@
+/mnt/d/csourcecode/exercise8-2/CMakeFiles/rebuild_cache.dir
+/mnt/d/csourcecode/exercise8-2/CMakeFiles/edit_cache.dir
+/mnt/d/csourcecode/exercise8-2/CMakeFiles/my_file.dir

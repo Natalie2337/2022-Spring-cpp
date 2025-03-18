@@ -1,0 +1,3 @@
+/mnt/d/csourcecode/lab8/CMakeFiles/rebuild_cache.dir
+/mnt/d/csourcecode/lab8/CMakeFiles/edit_cache.dir
+/mnt/d/csourcecode/lab8/CMakeFiles/CMAKE_Demo1.dir

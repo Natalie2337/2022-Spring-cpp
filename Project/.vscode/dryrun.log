@@ -1,0 +1,23 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/d/csourcecode/Project'
+/usr/bin/cmake -S/mnt/d/csourcecode/Project -B/mnt/d/csourcecode/Project --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /mnt/d/csourcecode/Project/CMakeFiles /mnt/d/csourcecode/Project/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/mnt/d/csourcecode/Project'
+make -f CMakeFiles/pro1.dir/build.make CMakeFiles/pro1.dir/depend
+ 
+make[2]: Entering directory '/mnt/d/csourcecode/Project'
+cd /mnt/d/csourcecode/Project && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/d/csourcecode/Project /mnt/d/csourcecode/Project /mnt/d/csourcecode/Project /mnt/d/csourcecode/Project /mnt/d/csourcecode/Project/CMakeFiles/pro1.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/mnt/d/csourcecode/Project'
+make -f CMakeFiles/pro1.dir/build.make CMakeFiles/pro1.dir/build
+make[2]: Entering directory '/mnt/d/csourcecode/Project'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/mnt/d/csourcecode/Project/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/pro1.dir/pro.cpp.o"
+/usr/bin/c++   -isystem /usr/include/opencv4   -o CMakeFiles/pro1.dir/pro.cpp.o -c /mnt/d/csourcecode/Project/pro.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/mnt/d/csourcecode/Project/CMakeFiles --progress-num=2 "Linking CXX executable pro1"
+/usr/bin/cmake -E cmake_link_script CMakeFiles/pro1.dir/link.txt --verbose=
+make[2]: Leaving directory '/mnt/d/csourcecode/Project'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/mnt/d/csourcecode/Project/CMakeFiles --progress-num=1,2 "Built target pro1"
+make[1]: Leaving directory '/mnt/d/csourcecode/Project'
+/usr/bin/cmake -E cmake_progress_start /mnt/d/csourcecode/Project/CMakeFiles 0
+make: Leaving directory '/mnt/d/csourcecode/Project'
+ 

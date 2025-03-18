@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/csourcecode/exercise8-2/candybar.h
+iostream
+-
+
+/mnt/d/csourcecode/exercise8-2/func.cpp
+iostream
+-
+candybar.h
+/mnt/d/csourcecode/exercise8-2/candybar.h
+
+/mnt/d/csourcecode/exercise8-2/main.cpp
+iostream
+-
+candybar.h
+/mnt/d/csourcecode/exercise8-2/candybar.h
+

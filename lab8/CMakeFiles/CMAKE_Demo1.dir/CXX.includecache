@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/csourcecode/lab8/factorial.cpp
+functions.h
+/mnt/d/csourcecode/lab8/functions.h
+
+/mnt/d/csourcecode/lab8/functions.h
+
+/mnt/d/csourcecode/lab8/main.cpp
+iostream
+-
+functions.h
+/mnt/d/csourcecode/lab8/functions.h
+

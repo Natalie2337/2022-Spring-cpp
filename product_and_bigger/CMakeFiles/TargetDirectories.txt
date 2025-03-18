@@ -1,0 +1,4 @@
+/mnt/d/csourcecode/product_and_bigger/CMakeFiles/rebuild_cache.dir
+/mnt/d/csourcecode/product_and_bigger/CMakeFiles/edit_cache.dir
+/mnt/d/csourcecode/product_and_bigger/CMakeFiles/main_bigger.dir
+/mnt/d/csourcecode/product_and_bigger/CMakeFiles/main_product.dir

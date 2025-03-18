@@ -1,0 +1,37 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/d/csourcecode/product_and_bigger'
+/usr/bin/cmake -S/mnt/d/csourcecode/product_and_bigger -B/mnt/d/csourcecode/product_and_bigger --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /mnt/d/csourcecode/product_and_bigger/CMakeFiles /mnt/d/csourcecode/product_and_bigger/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+ 
+make[1]: Entering directory '/mnt/d/csourcecode/product_and_bigger'
+make -f CMakeFiles/main_bigger.dir/build.make CMakeFiles/main_bigger.dir/depend
+ 
+make[2]: Entering directory '/mnt/d/csourcecode/product_and_bigger'
+cd /mnt/d/csourcecode/product_and_bigger && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/d/csourcecode/product_and_bigger /mnt/d/csourcecode/product_and_bigger /mnt/d/csourcecode/product_and_bigger /mnt/d/csourcecode/product_and_bigger /mnt/d/csourcecode/product_and_bigger/CMakeFiles/main_bigger.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/mnt/d/csourcecode/product_and_bigger'
+make -f CMakeFiles/main_bigger.dir/build.make CMakeFiles/main_bigger.dir/build
+make[2]: Entering directory '/mnt/d/csourcecode/product_and_bigger'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/mnt/d/csourcecode/product_and_bigger/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/main_bigger.dir/main_bigger.cpp.o"
+/usr/bin/c++     -o CMakeFiles/main_bigger.dir/main_bigger.cpp.o -c /mnt/d/csourcecode/product_and_bigger/main_bigger.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/mnt/d/csourcecode/product_and_bigger/CMakeFiles --progress-num=2 "Linking CXX executable main_bigger"
+/usr/bin/cmake -E cmake_link_script CMakeFiles/main_bigger.dir/link.txt --verbose=
+make[2]: Leaving directory '/mnt/d/csourcecode/product_and_bigger'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/mnt/d/csourcecode/product_and_bigger/CMakeFiles --progress-num=1,2 "Built target main_bigger"
+make -f CMakeFiles/main_product.dir/build.make CMakeFiles/main_product.dir/depend
+make[2]: Entering directory '/mnt/d/csourcecode/product_and_bigger'
+cd /mnt/d/csourcecode/product_and_bigger && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /mnt/d/csourcecode/product_and_bigger /mnt/d/csourcecode/product_and_bigger /mnt/d/csourcecode/product_and_bigger /mnt/d/csourcecode/product_and_bigger /mnt/d/csourcecode/product_and_bigger/CMakeFiles/main_product.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/mnt/d/csourcecode/product_and_bigger'
+make -f CMakeFiles/main_product.dir/build.make CMakeFiles/main_product.dir/build
+ 
+make[2]: Entering directory '/mnt/d/csourcecode/product_and_bigger'
+/usr/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/mnt/d/csourcecode/product_and_bigger/CMakeFiles --progress-num=3 "Building CXX object CMakeFiles/main_product.dir/main_product.cpp.o"
+/usr/bin/c++     -o CMakeFiles/main_product.dir/main_product.cpp.o -c /mnt/d/csourcecode/product_and_bigger/main_product.cpp
+/usr/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/mnt/d/csourcecode/product_and_bigger/CMakeFiles --progress-num=4 "Linking CXX executable main_product"
+/usr/bin/cmake -E cmake_link_script CMakeFiles/main_product.dir/link.txt --verbose=
+make[2]: Leaving directory '/mnt/d/csourcecode/product_and_bigger'
+/usr/bin/cmake -E cmake_echo_color --switch= --progress-dir=/mnt/d/csourcecode/product_and_bigger/CMakeFiles --progress-num=3,4 "Built target main_product"
+make[1]: Leaving directory '/mnt/d/csourcecode/product_and_bigger'
+/usr/bin/cmake -E cmake_progress_start /mnt/d/csourcecode/product_and_bigger/CMakeFiles 0
+make: Leaving directory '/mnt/d/csourcecode/product_and_bigger'
+ 

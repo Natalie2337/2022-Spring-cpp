@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/d/csourcecode/split_string'
+g++ -c -Wall -O3   -c -o main.o main.cpp
+ 
+mkdir ./lib
+g++ -shared -fPIC -o lib/libpair.so pair.cpp
+g++ -o main -L./lib -Wl,-rpath=./lib main.o -lpair
+make: Leaving directory '/mnt/d/csourcecode/split_string'
+ 
